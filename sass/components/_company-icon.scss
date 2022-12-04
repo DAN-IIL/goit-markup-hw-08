@@ -1,0 +1,36 @@
+.company-icon-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-icon-list .company-icon-list__item {
+    margin-right: 30px;
+    width: 170px;
+    height: 92px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.company-icon-list__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: #AFB1B8;
+
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+        border: 1px solid var(--accent-color);
+        border-radius: 4px;
+    }
+}

@@ -1,0 +1,38 @@
+.page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: #2F303A;
+}
+
+.page-footer__flex {
+    display: flex;
+    align-items: baseline;
+}
+
+.container__footer-div-contact {
+    margin-left: 70px;
+}
+
+.container__come-in {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    color: #FFFFFF;
+}
+
+.container__subscribe {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}

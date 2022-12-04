@@ -1,0 +1,52 @@
+.data-name-div {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+
+.data-name-div__bf {
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+
+    margin-bottom: 4px;
+    
+    color: #757575;
+}
+
+.icon-name-div {
+    position: relative;
+}
+
+.icon-name-div__icon-data-name {
+    position: absolute;
+    top: 11px;
+    left: 12px;
+
+    fill: #212121;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-name-div__data-name {
+    width: 448px;
+    height: 40px;
+    padding-left: 42px;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        border-color: var(--accent-color);
+    }
+
+    &:hover+.icon-name-div__icon-data-name,
+    &:focus+.icon-name-div__icon-data-name {
+        fill: var(--accent-color);
+    }
+}

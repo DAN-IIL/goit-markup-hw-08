@@ -1,0 +1,55 @@
+.container__footer-subscribe-div {
+    margin-left: auto;
+}
+
+.form-sb {
+    display: flex;
+    margin-top: 20px;
+
+    & input::placeholder {
+        font-size: 16px;
+        line-height: 20px;
+    
+        color: rgba(255, 255, 255, 0.6);
+    }
+}
+
+.form-sb__email {
+    width: 358px;
+    height: 50px;
+    padding: 15px 16px;
+    letter-spacing: 0.03em;
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+}
+
+.form-sb__submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    margin-left: 12px;
+
+    width: 200px;
+    height: 50px;
+
+    color: #FFFFFF;
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-sb__telegram {
+    margin-left: 10px;
+
+    fill: #FFFFFF;
+}

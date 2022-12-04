@@ -1,0 +1,26 @@
+.footer-list {
+    width: 231px;
+}
+
+.footer-list .footer-list__item {
+    margin-bottom: 9px;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+.footer-list__link {
+    color: #FFFFFF;
+    font-style: normal;
+    line-height: 1.74;
+    text-decoration: none;
+}
+
+.footer-list__address-mail,
+.footer-list__address-tel {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    line-height: 1.74;
+    text-decoration: none;
+}

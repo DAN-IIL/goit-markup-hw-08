@@ -1,0 +1,36 @@
+/* utils styles*/
+@import './utils/vars';
+@import './utils/visually-hidden';
+
+/* base styles*/
+@import './base/base';
+@import './base/reset';
+
+/* components styles*/
+@import './components/components';
+@import './components/container';
+@import './components/section';
+@import './components/header';
+@import './components/logo';
+@import './components/hero-section';
+@import './components/feature-section';
+@import './components/our-work-section';
+@import './components/team-section';
+@import './components/social-icon';
+@import './components/company-icon-section';
+@import './components/company-icon';
+@import './components/footer';
+@import './components/address';
+@import './components/subscribe';
+@import './components/filter-section';
+@import './components/filter-button';
+@import './components/filter-work';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/modal-form';
+@import './components/modal-name';
+@import './components/modal-tel';
+@import './components/modal-mail';
+@import './components/modal-comment';
+@import './components/modal-accept';
+@import './components/modal-submit';
