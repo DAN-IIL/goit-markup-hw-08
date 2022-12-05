@@ -44,8 +44,12 @@
 // footer-logo
 .footer-logo {
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     text-decoration: none;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 20px;
+    }
 }
 
 .footer-logo__web {

@@ -1,12 +1,34 @@
 .footer-list {
-    width: 231px;
+    
+}
+
+.container__footer-div-address {
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+    }
+}
+
+.address {
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0;
+    }
 }
 
 .footer-list .footer-list__item {
-    margin-bottom: 9px;
+    margin-bottom: 12px;
 
     &:last-child {
         margin-bottom: 0px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 9px;
+
+        text-align: left;
     }
 }
 
