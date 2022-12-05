@@ -1,5 +1,10 @@
 .page-main__our-work {
-    padding-top: 0;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+    @media screen and (min-width: 1200px) {
+        padding-top: 0;
+    }
 }
 
 .work-list {

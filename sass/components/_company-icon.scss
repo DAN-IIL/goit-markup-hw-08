@@ -1,7 +1,12 @@
 .company-icon-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
+    @media screen and (min-width: 1200px) {
+        flex-wrap: nowrap;
+    }
 }
 
 .company-icon-list .company-icon-list__item {

@@ -3,7 +3,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 30px;
+    padding-bottom: 24px;
+
+    @media screen and (min-width: 1200px) {
+        padding-bottom: 30px;
+    }
 }
 
 .team-social-list .team-social-list__item {
