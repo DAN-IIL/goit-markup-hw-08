@@ -266,7 +266,7 @@ img {
 }
 
 .hero-section {
-  max-width: 1600px;
+  min-width: 480px;
   height: 400px;
   text-align: center;
   background-color: #2F303A;
@@ -275,6 +275,7 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .hero-section {
+    max-width: 1600px;
     height: 600px;
   }
 }
@@ -465,6 +466,7 @@ img {
 }
 
 .page-main__team {
+  min-width: 480px;
   background-color: #F5F4FA;
 }
 
@@ -712,6 +714,7 @@ img {
 }
 
 .page-footer {
+  min-width: 480px;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2F303A;
