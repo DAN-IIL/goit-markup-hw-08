@@ -184,6 +184,29 @@ img {
   color: var(--accent-color);
 }
 
+.menu-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+  margin-left: 276px;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-button .icon-close {
+  display: none;
+}
+
+.menu-button.is-open .icon-close {
+  display: block;
+}
+
+.menu-button.is-open .icon-menu {
+  display: none;
+}
+
 .header-logo {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -1044,11 +1067,6 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .portfolio-link__filter-img {
-    display: none;
-  }
-}
 @media screen and (min-width: 1200px) {
   .portfolio-link__filter-img {
     width: 370px;
