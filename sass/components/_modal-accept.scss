@@ -42,20 +42,28 @@
     justify-content: center;
     align-items: center;
 
-    font-size: 14px;
-    line-height: 1.7;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     
     color: #757575;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+    }
 }
 
 .accept-div__link {
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     text-decoration-line: underline;
 
     margin-left: 4px;
 
     color: var(--accent-color);
+
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+    }
 }
