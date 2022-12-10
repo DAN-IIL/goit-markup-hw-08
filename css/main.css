@@ -74,12 +74,12 @@ img {
 }
 
 .page-header {
-  max-width: 480px;
   border-bottom: 1px solid #ECECEC;
+  width: 480px;
 }
 @media screen and (min-width: 1200px) {
   .page-header {
-    max-width: 1600px;
+    width: 1600px;
   }
 }
 

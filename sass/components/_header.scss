@@ -1,9 +1,10 @@
 .page-header {
-    max-width: 480px;
     border-bottom: 1px solid #ECECEC;
+    width: 480px;
+    // margin: 0;
 
-    @media screen and (min-width: 1200px) {
-        max-width: 1600px;
+    @media  screen and (min-width: 1200px) {
+        width: 1600px;
     }
 }
 
