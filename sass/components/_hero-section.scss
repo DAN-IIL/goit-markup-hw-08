@@ -4,6 +4,7 @@
 
     text-align: center;
     background-color: #2F303A;
+    background-size: cover;
 
         @media screen and (min-width: 480px) {
             background-image: linear-gradient(
@@ -18,6 +19,24 @@
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)), 
                     url(../images/hero-bg/bg-mob@2x.jpg);
+                }
+        }
+
+        @media screen and (min-width: 768px) {
+            min-width: 768px;
+
+            background-image: linear-gradient(
+                to right,
+                rgba(47, 48, 58, 0.4),
+                rgba(47, 48, 58, 0.4)), 
+                url(../images/hero-bg/bg-tab@1x.jpg);
+
+                @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+                    background-image: linear-gradient(
+                    to right,
+                    rgba(47, 48, 58, 0.4),
+                    rgba(47, 48, 58, 0.4)), 
+                    url(../images/hero-bg/bg-tab@2x.jpg);
                 }
         }
 
@@ -36,7 +55,7 @@
                     to right,
                     rgba(47, 48, 58, 0.4),
                     rgba(47, 48, 58, 0.4)), 
-                    url(../images/hero-bg/bg-com@1x.jpg);
+                    url(../images/hero-bg/bg-com@2x.jpg);
                 }
         }
 }

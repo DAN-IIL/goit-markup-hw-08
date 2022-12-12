@@ -15,6 +15,13 @@
 
 .header-list {
     display: none;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        margin-left: 88px;
+        width: 281px;
+    }
+
     @media screen and (min-width: 1200px) {
         display: flex;
         margin-left: 93px;
@@ -31,7 +38,7 @@
 }
 
 .header-list__link.header-list__current {
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 768px) {
         color: var(--accent-color);
 
         &::after {
@@ -69,6 +76,11 @@
 
 .header-address-list {
     display: none;
+
+    @media screen and (min-width: 768px) {
+        display: block;
+        margin-left: auto;
+    }
     
     @media screen and (min-width: 1200px) {
         display: flex;
@@ -77,26 +89,51 @@
 }
 
 .header-address-list .header-address-list__item + .header-address-list__item {
-    margin-left: 30px;
+    @media screen and (min-width: 1200px) {
+        margin-left: 30px;
+    }
 }
 
 .header-address-list__mail {
+    width: 14px;
+    height: 10px;
     margin-right: 10px;
     fill: currentColor;
+
+    @media screen and (min-width: 1200px) {
+        width: 16px;
+        height: 12px;
+    }
 }
 
 .header-address-list__phone {
+    height: 14px;
     margin-right: 10px;
     fill: currentColor;
+
+    @media screen and (min-width: 1200px) {
+        height: 16px;
+    }
+}
+
+.header-address-list__address-mail {
+    padding-top: 21px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 10px;
+    }
+}
+
+.header-address-list__address-tel {
+    padding-bottom: 21px;
 }
 
 .header-address-list__address-mail,
 .header-address-list__address-tel {
     display: inline-flex;
-    padding-top: 32px;
-    padding-bottom: 32px;
     font-weight: 500;
-    line-height: 1.14;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--primary-text-color);
@@ -106,5 +143,13 @@
     &:hover,
     &:focus {
         color: var(--accent-color);
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding-top: 32px;
+        padding-bottom: 32px;
+
+        font-size: 14px;
+        line-height: 1.14;
     }
 }

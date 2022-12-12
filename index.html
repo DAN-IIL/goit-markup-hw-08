@@ -98,19 +98,46 @@
                 <ul class="work-list">
                     <li class="work-list__item">
                         <div class="work-list__div">
-                            <img src="./images/img_1.jpg" alt="Написання коду">
+                            <img 
+                            srcset="
+                            ./images/our-work/img_1_370.jpg 370w,
+                            ./images/our-work/img_1_740.jpg 740w
+                            "
+                            sizes="(min-width: 1200px) 370w, 100vw"
+                            src="./images/our-work/img_1_740.jpg" 
+                            alt="Написання коду"
+                            loading="lazy">
+
                             <p class="work-list__text">ДЕСКТОПНІ ДОДАТКИ</p>
                         </div>
                     </li>
                     <li class="work-list__item">
                         <div class="work-list__div">
-                            <img src="./images/img_2.jpg" alt="Створення дизайну проекту">
+                            <img 
+                            srcset="
+                            ./images/our-work/img_2_370.jpg 370w,
+                            ./images/our-work/img_2_740.jpg 740w
+                            "
+                            sizes="(min-width: 1200px) 370w, 100vw"
+                            src="./images/our-work/img_2_740.jpg" 
+                            alt="Створення дизайну проекту"
+                            loading="lazy">
+                            
                             <p class="work-list__text">МОБІЛЬНІ ДОДАТКИ</p>
                         </div>
                     </li>
                     <li class="work-list__item">
                         <div class="work-list__div">
-                            <img src="./images/img_3.jpg" alt="Вибір кольорів для дизайну">
+                            <img 
+                            srcset="
+                            ./images/our-work/img_3_370.jpg 370w,
+                            ./images/our-work/img_3_740.jpg 740w
+                            "
+                            sizes="(min-width: 1200px) 370w, 100vw"
+                            src="./images/our-work/img_3_740.jpg" 
+                            alt="Вибір кольорів для дизайну"
+                            loading="lazy">
+
                             <p class="work-list__text">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p>
                         </div>
                     </li>
@@ -124,7 +151,13 @@
                 <h2 class="container__team-title">Наша команда</h2>
                 <ul class="team-list">
                     <li class="team-list__item">
-                        <img src="./images/img(2)_1.jpg" alt="Product Designer">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="./images/team-photo/img1_com@1x.jpg 1x, ./images/team-photo/img1_com@2x.jpg 2x">
+                            <source media="(min-width: 768px)" srcset="./images/team-photo/img1_tab@1x.jpg 1x, ./images/team-photo/img1_tab@2x.jpg 2x">
+                            <source media="(min-width: 480px)" srcset="./images/team-photo/img1_mob@1x.jpg 1x, ./images/team-photo/img1_mob@2x.jpg 2x">
+
+                            <img src="./images/team-photo/img1_mob@1x.jpg" alt="Product Designer"  loading="lazy">
+                        </picture>
                         <div class="team-list__div">
                             <h3 class="team-list__member-team-title">Ігор Дем'яненко</h3>
                             <p class="team-list__member-team-text">Product Designer</p>
@@ -161,7 +194,13 @@
                         </ul>
                     </li>
                     <li class="team-list__item">
-                        <img src="./images/img(2)_2.jpg" alt="Frontend Developer">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="./images/team-photo/img2_com@1x.jpg 1x, ./images/team-photo/img2_com@2x.jpg 2x">
+                            <source media="(min-width: 768px)" srcset="./images/team-photo/img2_tab@1x.jpg 1x, ./images/team-photo/img2_tab@2x.jpg 2x">
+                            <source media="(min-width: 480px)" srcset="./images/team-photo/img2_mob@1x.jpg 1x, ./images/team-photo/img2_mob@2x.jpg 2x">
+
+                            <img src="./images/team-photo/img2_mob@1x.jpg" alt="Frontend Developer">
+                        </picture>
                         <div class="team-list__div">
                             <h3 class="team-list__member-team-title">Ольга Рєпіна</h3>
                             <p class="team-list__member-team-text">Frontend Developer</p>
@@ -198,7 +237,13 @@
                         </ul>
                     </li>
                     <li class="team-list__item">
-                        <img src="./images/img(2)_3.jpg" alt="Marketing">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="./images/team-photo/img3_com@1x.jpg 1x, ./images/team-photo/img3_com@2x.jpg 2x">
+                            <source media="(min-width: 768px)" srcset="./images/team-photo/img3_tab@1x.jpg 1x, ./images/team-photo/img3_tab@2x.jpg 2x">
+                            <source media="(min-width: 480px)" srcset="./images/team-photo/img3_mob@1x.jpg 1x, ./images/team-photo/img3_mob@2x.jpg 2x">
+
+                            <img src="./images/team-photo/img3_mob@1x.jpg" alt="Marketing">
+                        </picture>
                         <div class="team-list__div">
                             <h3 class="team-list__member-team-title">Микола Тарасов</h3>
                             <p class="team-list__member-team-text">Marketing</p>
@@ -235,7 +280,13 @@
                         </ul>
                     </li>
                     <li class="team-list__item">
-                        <img src="./images/img(2)_4.jpg" alt="UI Designer">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="./images/team-photo/img4_com@1x.jpg 1x, ./images/team-photo/img4_com@2x.jpg 2x">
+                            <source media="(min-width: 768px)" srcset="./images/team-photo/img4_tab@1x.jpg 1x, ./images/team-photo/img4_tab@2x.jpg 2x">
+                            <source media="(min-width: 480px)" srcset="./images/team-photo/img4_mob@1x.jpg 1x, ./images/team-photo/img4_mob@2x.jpg 2x">
+
+                            <img src="./images/team-photo/img4_mob@1x.jpg" alt="UI Designer">
+                        </picture>
                         <div class="team-list__div">
                             <h3 class="team-list__member-team-title">Михайло Єрмаков</h3>
                             <p class="team-list__member-team-text">UI Designer</p>
