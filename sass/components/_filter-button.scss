@@ -3,6 +3,15 @@
     flex-wrap: wrap;
     margin-bottom: 40px;
     width: 320px;
+
+    @media screen and (min-width: 768px) {
+        flex-wrap: nowrap;
+        margin-right: auto;
+        margin-left: auto;
+        width: 569px;
+        margin-bottom: 30px;
+        gap: 8px;
+    }
     
     @media screen and (min-width: 1200px) {
         flex-wrap: nowrap;
@@ -25,6 +34,10 @@
 
     &:last-child {
         margin-right: 0px;
+    }
+
+    @media screen and (min-width: 768px) {
+        margin-right: 0;
     }
 
     @media screen and (min-width: 1200px) {

@@ -1,6 +1,11 @@
 .container__footer-subscribe-div {
     text-align: center;
 
+    @media screen and (min-width: 768px) {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     @media screen and (min-width: 1200px) {
         margin-left: auto;
         text-align: left;
@@ -9,12 +14,18 @@
 
 .form-sb {
     margin-top: 20px;
+    display: block;
 
     & input::placeholder {
         font-size: 16px;
         line-height: 1.25;
     
         color: rgba(255, 255, 255, 0.6);
+    }
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
     }
 
     @media screen and (min-width: 1200px) {
@@ -34,7 +45,12 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: rgba(0, 0, 0, 0);
+    outline: none;
     color: #FFFFFF;
+
+    @media screen and (min-width: 768px) {
+        margin-left: 144px;
+    }
 
     @media screen and (min-width: 1200px) {
         width: 358px;
@@ -60,6 +76,10 @@
     border: 0;
     border-radius: 4px;
     cursor: pointer;
+
+    @media screen and (min-width: 768px) {
+        margin-left: 260px;
+    }
 
     @media screen and (min-width: 1200px) {
         margin-left: 12px;
