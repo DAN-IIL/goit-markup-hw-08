@@ -923,6 +923,7 @@ img {
 @media screen and (min-width: 1200px) {
   .container__footer-div-contact {
     margin-left: 70px;
+    margin-right: auto;
     margin-bottom: 0;
     text-align: left;
   }
@@ -1006,7 +1007,6 @@ img {
 }
 @media screen and (min-width: 768px) {
   .container__footer-subscribe-div {
-    margin-right: auto;
     margin-left: auto;
   }
 }
@@ -1085,6 +1085,7 @@ img {
 @media screen and (min-width: 1200px) {
   .form-sb__email {
     width: 358px;
+    margin-left: 0;
     margin-bottom: 0;
   }
 }
