@@ -96,7 +96,7 @@
     display: inline-block;
     border: 0px;
     border-radius: 4px;
-    padding: 10px 32px;
+    padding: 10px 24px;
 
     color: #FFFFFF;
     background-color: var(--accent-color);
@@ -108,4 +108,8 @@
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+
+    @media screen and (min-width: 1200px) {
+        padding: 10px 32px;
+    }
 }

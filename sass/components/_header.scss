@@ -89,8 +89,13 @@
 }
 
 .header-address-list .header-address-list__item + .header-address-list__item {
+    @media screen and (min-width: 768px) {
+        margin-top: 10px;
+    }
+
     @media screen and (min-width: 1200px) {
         margin-left: 30px;
+        margin-top: 0;
     }
 }
 
@@ -118,10 +123,6 @@
 
 .header-address-list__address-mail {
     padding-top: 21px;
-
-    @media screen and (min-width: 768px) {
-        margin-bottom: 10px;
-    }
 }
 
 .header-address-list__address-tel {
